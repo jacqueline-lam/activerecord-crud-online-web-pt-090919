@@ -73,7 +73,7 @@ def can_find_using_where_clause_and_be_sorted
   # Movie.order(:release_date).reverse
   
   binding.p
-  Movie.where('release_date > 2000').order('release_date desc')
+  Movie.where('release_date > 2002').order('release_date desc')
 end
 
 # UPDATE
